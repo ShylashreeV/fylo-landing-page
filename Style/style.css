@@ -1,13 +1,4 @@
 
-    .attribution { 
-        font-size: 20px; 
-        text-align: center; 
-        margin-top: 1rem;
-        font-weight: 700;
-    }
-    .attribution a { 
-        color: hsl(228, 45%, 44%); 
-    }
     @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400&family=Martel+Sans:wght@300;400;600;700;800;900&family=Outfit:wght@300;500;600&family=Poppins:wght@100&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&family=Red+Hat+Display:wght@500;700;900&display=swap');
     :root{
 --very-dark-Blue: hsl(243, 87%, 12%);
@@ -24,7 +15,7 @@
 }
 body{
     font-family: 'Raleway', sans-serif;
-      padding: 4rem 4rem 0 4rem;
+      margin: 5rem;
 }
 .header-section{
     height: 80vh;
@@ -33,12 +24,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 20px;
+    margin: 2.5rem;
 }
 .nav-items a{
     text-decoration: none;
-    font-size: 25px;
-    margin-left: 4rem;
+    font-size: 1.7rem;
+    margin-left: 2rem;
     color: var(--Desaturated-Blue);
 }
 .hero-section{
@@ -54,13 +45,15 @@ body{
     
 }
 .text-container h1{
-    font-size: 60px;
+    font-size: 3.5rem;
+    margin-left: 2.5rem;
     font-weight: 600;
     color: var(--very-dark-Blue);
-    margin-bottom: 20px;
+    margin-bottom: 4rem;
 }
 .text-container p{
-    font-size: 30px;
+    margin-left: 2.5rem;
+    font-size: 1.7rem;
     font-weight: 500;
     color: var(--very-dark-Blue);
     margin-bottom: 20px;
@@ -68,7 +61,7 @@ body{
     
 }
 .img-container img{
-    width: 550px;
+    width: 800px;
     margin: 10rem;
 }
 .clt-container{
@@ -77,17 +70,19 @@ body{
     align-items: center;
 }
 .clt-container input{
-    width: 350px;
+    width: 500px;
     margin-right: 20px;
-    padding: 12px 20px;
+    padding: 20px 40px;
     outline-width: 0;
     border: 2px solid var(--very-dark-Blue);
     border-radius: 5px;
     font-size: 20px;
     font-weight: 400;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
 }
 .clt-container button{
-    width:200px;
+    width:400px;
     padding: 20px 20px;
     border-radius: 5px;
     background-color: var(--Bright-Blue);
@@ -283,10 +278,18 @@ margin-right: 15px;
     color: #fff;
     background-color:blue;
 }
-@media  (max-width:500px) {
+@media screen and (max-width:768px) {
     body{
-        width: 400px;
+        font-family: 'Raleway', sans-serif;
+      padding: 4rem 4rem 0 4rem;
     }
+    .img-container img{
+    width: 80%;
+    margin: 10rem;
+    }
+    
+
+
     
 }
 
