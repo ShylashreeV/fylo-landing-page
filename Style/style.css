@@ -15,7 +15,7 @@
 }
 body{
     font-family: 'Raleway', sans-serif;
-      margin: 5rem;
+      margin: 3rem;
 }
 .header-section{
     height: 80vh;
@@ -24,12 +24,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2.5rem;
+    margin: 2rem;
 }
 .nav-items a{
     text-decoration: none;
-    font-size: 1.7rem;
-    margin-left: 2rem;
+    font-size: 1rem;
+    margin-left: 1.5rem;
     color: var(--Desaturated-Blue);
 }
 .hero-section{
@@ -45,16 +45,14 @@ body{
     
 }
 .text-container h1{
-    font-size: 3.5rem;
-    margin-left: 2.5rem;
+    font-size: 2.5rem;
     font-weight: 600;
     color: var(--very-dark-Blue);
     margin-bottom: 4rem;
 }
 .text-container p{
-    margin-left: 2.5rem;
-    font-size: 1.7rem;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 400;
     color: var(--very-dark-Blue);
     margin-bottom: 20px;
     letter-spacing: 1px;
@@ -62,7 +60,7 @@ body{
 }
 .img-container img{
     width: 800px;
-    margin: 10rem;
+    margin: 3rem;
 }
 .clt-container{
     display: flex;
@@ -70,19 +68,18 @@ body{
     align-items: center;
 }
 .clt-container input{
-    width: 500px;
+    width: 350px;
     margin-right: 20px;
-    padding: 20px 40px;
+    padding: 20px 20px;
     outline-width: 0;
     border: 2px solid var(--very-dark-Blue);
     border-radius: 5px;
     font-size: 20px;
     font-weight: 400;
-    margin-left: 2.5rem;
     margin-top: 1rem;
 }
 .clt-container button{
-    width:400px;
+    width:300px;
     padding: 20px 20px;
     border-radius: 5px;
     background-color: var(--Bright-Blue);
@@ -90,7 +87,7 @@ body{
     font-weight: 600;
     outline-width: 0;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
 }
 .clt-container button:active{
     cursor: pointer;
@@ -111,21 +108,21 @@ body{
     align-items: flex-start;
 }
 .feature-text-container h1{
-    font-size: 60px;
-    font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: 500;
     color: var(--very-dark-Blue);
     margin-bottom: 20px;
 }
 
 .feature-text-container p{
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 400;
     color: var(--Desaturated-Blue);
     margin-bottom: 20px;   
 }
 .feature-img-container img{
-    width: 550px;
-    margin: 10rem;
+    width: 600px;
+    margin: 3rem;
 }
 .feature-text-container button{
     padding: 8px 22px;
